@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* typical device breackpoints
+pequenas telas:   até 600px
+celular:          600px até 768px
+tablets:          768px até 992px
+desktops:         992px até 1200px
+grandes telas:    accima de 1200px
+*/
+
+
+ @media screen and (min-width: 768px) and (max-width: 992px){
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login {
+        width: 80vw;
+    }
+    section#login div#imagem {
+        background: #5f2c82 url(../Imagens/officedeskt.jpg) no-repeat;
+        background-size: cover;
+        background-position: 30% ;
+        float: left;
+        width: 40%;
+        height: 100%;    
+    }
+    div#form {
+        float: right;
+        width: 60%;
+    }
+ }
+
+ @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login {
+        width: 950px;
+    }
+    section#login div#imagem {
+        background: #5f2c82 url(../Imagens/officedeskt.jpg) no-repeat;
+        background-size: cover;
+        background-position: 30% ;
+        float: left;
+        width: 50%;
+        height: 100%;    
+    }
+    div#form {
+        float: right;
+        width: 50%;
+    }
+ }
