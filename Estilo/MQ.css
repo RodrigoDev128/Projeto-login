@@ -41,12 +41,12 @@ grandes telas:    accima de 1200px
         background: #5f2c82 url(../Imagens/officedeskt.jpg) no-repeat;
         background-size: cover;
         background-position: 30% ;
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;    
     }
     div#form {
-        float: right;
+        float: left;
         width: 50%;
     }
  }
