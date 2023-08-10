@@ -45,13 +45,82 @@ section#login div#imagem {
     background-size:cover;
     height: 200px;
 }
+.campo label{
+    font-weight: bold;
+    font-size: 0.9em;
+}
 div#form {
     display: block;
     padding: 10px;
 }
 div#form h1 {
+    font-size: 1.5em;
     text-align: center;
 }
 div#form p {
-    font-size: 0.8em;
+    text-align: center;
+    font-size: 1em;
+}
+
+form div.campo {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.campo i {
+    padding-right: 10px;
+}
+div.campo input {
+    height: 30px;
+    border: none;
+    border-bottom: #b444ff 1px solid;
+    transition: 1s;
+}
+div.campo input:focus {
+    outline: none;
+}
+.campo label {
+    display: none;
+}
+form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #b444ff;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: 0.2s;
+}
+form input[type=submit]:hover {
+    border: #b444ff solid 1px;
+    background-color: white;
+    color: #b444ff;
+    cursor: pointer;
+}
+
+form a {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #b444ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #b444ff;
+    transition: 0.5s;
+}
+
+form a:hover {
+    background-color: #b444ff;
+    color: #ffffff;
 }
